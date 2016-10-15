@@ -152,8 +152,8 @@ deploy:
   # ignore_errors: false
 
   # type: git
-  # repo: git@github.com:deeplinks-in/deeplinks-in.github.io.git
-  # branch: master
+  # repo: git@github.com:luozhihua/luozhihua.com.git
+  # branch: gh-pages
 
 rss: /atom.xml #rss地址  默认即可
 
