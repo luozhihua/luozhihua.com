@@ -1,0 +1,65 @@
+# Menus
+menu:
+    Home: /
+    # Delete this row if you don't want categories in your header nav bar
+    Categories:
+    # About: /about/index.html
+
+# Customize
+customize:
+    logo:
+        width: 165
+        height: 60
+        url: images/logo-header.png
+    theme_color: '#279FDA'
+    highlight: androidstudio
+    sidebar: left # sidebar position, options: left, right
+    thumbnail: true # enable posts thumbnail, options: true, false
+    favicon: # path to favicon
+    social_links: # for more icons, please see http://fontawesome.io/icons/#brand
+        twitter: /
+        facebook: /
+        google-plus: https://plus.google.com/u/0/110094857613114167967
+        github: https://github.com/luozhihua/
+        weibo: http://weibo.com/luozhihua
+        rss: /rss2.xml
+
+# Widgets
+widgets:
+    - recent_posts
+    # - category
+    - archive
+    # - tag
+    - tagcloud
+    - links
+
+# Search
+search:
+    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+    swiftype: # enter swiftype install key here
+    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# Comment
+comment:
+    disqus: hexo-theme-hueman # enter disqus shortname here
+    duoshuo: luozhihua # enter duoshuo shortname here
+    youyan: # enter youyan uid here
+
+# Share
+share: bdshare # options: jiathis, bdshare, addtoany, default
+
+# Plugins
+plugins:
+    lightgallery: true # options: true, false
+    google_analytics: # enter the tracking ID for your Google Analytics
+    baidu_analytics: # enter Baidu Analytics hash key
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins: 100004103689176
+        twitter_id: colinluo
+        google_plus: https://plus.google.com/u/0/110094857613114167967
+    links:
+        Hexo: http://hexo.io

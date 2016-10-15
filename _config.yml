@@ -128,19 +128,19 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: hueman
+theme: xhueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: luozhihua.com
-  user: root
-  root: /web/luozhihua.com
-  port: 22
-  delete: false
-  verbose: true
-  ignore_errors: false
+  # type: rsync
+  # host: luozhihua.com
+  # user: root
+  # root: /web/luozhihua.com
+  # port: 22
+  # delete: false
+  # verbose: true
+  # ignore_errors: false
 
   # type: rsync
   # host: luozhihua.com
@@ -151,9 +151,9 @@ deploy:
   # verbose: true
   # ignore_errors: false
 
-  # type: git
-  # repo: git@github.com:luozhihua/luozhihua.com.git
-  # branch: gh-pages
+  type: git
+  repo: git@github.com:luozhihua/luozhihua.com.git
+  branch: gh-pages
 
 rss: /atom.xml #rss地址  默认即可
 
