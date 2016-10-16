@@ -222,7 +222,7 @@ qiniu:
   urlPrefix: http://oezzzs8eh.bkt.clouddn.com/static
   up_host: http://up.qiniu.com
   local_dir: static
-  update_exist: false
+  update_exist: true
   ignoring_log: false
   ignoring_files:
     - '**/.*'
