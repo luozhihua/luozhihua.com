@@ -133,27 +133,18 @@ theme: xhueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  # type: rsync
-  # host: luozhihua.com
-  # user: root
-  # root: /web/luozhihua.com
-  # port: 22
-  # delete: false
-  # verbose: true
-  # ignore_errors: false
+  type: rsync
+  host: luozhihua.com
+  user: root
+  root: /web/luozhihua.com
+  port: 22
+  delete: false
+  verbose: true
+  ignore_errors: false
 
-  # type: rsync
-  # host: luozhihua.com
-  # user: root
-  # root: /web/deeplinks.in
-  # port: 22
-  # delete: false
-  # verbose: true
-  # ignore_errors: false
-
-  type: git
-  repo: git@github.com:luozhihua/luozhihua.com.git
-  branch: gh-pages
+  # type: git
+  # repo: git@github.com:luozhihua/luozhihua.com.git
+  # branch: gh-pages
 
 rss: /atom.xml #rss地址  默认即可
 
@@ -221,7 +212,7 @@ feed:
 ##image.extend  这是个特殊参数，用于生成缩略图或加水印等操作。具体请参考http://developer.qiniu.com/docs/v6/api/reference/fop/image/
 ##              可使用基本图片处理、高级图片处理、图片水印处理这3个接口。例如 ?imageView2/2/w/500 即生成宽度最多500px的缩略图
 qiniu:
-  offline: true
+  offline: false
   sync: true
   bucket: luozhihuablog
   secret_file: "/Users/colin/qiniu.json"

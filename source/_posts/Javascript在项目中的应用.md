@@ -2,7 +2,7 @@
 title: Javascript在项目中的应用
 id: 384
 categories:
-  - 未分类
+  - 笔记
 date: 2010-10-11 23:43:34
 tags:
 ---

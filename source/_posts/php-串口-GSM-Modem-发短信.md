@@ -4,7 +4,7 @@ tags:
   - PHP
 id: 172
 categories:
-  - 未分类
+  - 笔记
 date: 2010-09-09 23:32:56
 ---
 
