@@ -159,6 +159,9 @@
         text-decoration: none
         &:hover
             text-decoration: underline
+        img
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
     ul, ol, dl
         margin-top: line-height
         margin-bottom: line-height
@@ -220,8 +223,22 @@
         display: block
         font-size: 0.9em
         margin-top: 0.5em
+        margin-bottom: 1.5em
         position: relative
         text-align: center
+
+        &:before, &:after
+            content: '☜' // ↑↑↑
+            display: inline-block;
+            margin: auto 8px;
+            width: 18px;
+            height: 18px;
+            border-radius: 18px;
+            text-align: center;
+            line-height: 18px;
+            border: 2px solid #eee;
+            transform: rotate(90deg) scale(1.5);
+
     // http://webdesignerwall.com/tutorials/css-elastic-videos
     .video-container
         position: relative
