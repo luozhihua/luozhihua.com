@@ -12,6 +12,8 @@ thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/no-node-sass.jp
 banner:
 ---
 
+<!-- toc -->
+
 [Sass](http://sass-lang.com)、[Less](http://lesscss.org/)、[Stylus](http://stylus-lang.com/)等CSS预处理器的出现大大的提升了CSS的开发速度和代码可读性，相对来说[Sass](http://sass-lang.com)功能更全面、使用的更广泛，之前好几个项目我都用了[Sass](http://sass-lang.com)，刚一开始我本机用着都一切安好，后来慢慢的发现不少问题。
 
 编译[Sass](http://sass-lang.com)的工具我选了用于[Grunt](http://gruntjs.com/)的[grunt-sass](https://www.npmjs.com/package/grunt-sass)和用于[Webpack](https://webpack.github.io/)的[sass-loader](https://www.npmjs.com/package/sass-loader)，这样可以避免单独配置[Ruby](https://www.ruby-lang.org/)和ruby-sass，但是我一直没察觉这为后面埋下了无数个地雷，每一次迁移环境或者给新同事搭建环境时，都会遇到node-sass安装失败，刚开始连VPN就好了，后来Node的版本升级越来越频繁，每一次更换Node版本都需要执行`npm rebuild node-sass`重新编译`node-sass`, 再后来，团队使用Jenkins自动化部署时同样的问题再次出现，Jenkins服务器不可能为了安装个node-sass单独连VPN，于是只能寻找解决方法。

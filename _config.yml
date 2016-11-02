@@ -238,11 +238,11 @@ qiniu:
   css:
     folder: css
 
-# 移除未使用的CSS
-uncss:
-  enable   : true
-  ignore   : "#added_at_runtime"
-  # media    : (min-width: 700px) handheld and (orientation: landscape)
-  priority : 10
-  timeout  : 1000
-  # uncssrc  : .uncssrc
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
