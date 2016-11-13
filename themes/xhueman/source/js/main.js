@@ -120,4 +120,22 @@
         }
     });
 
+    // 视频播放按钮
+    $('body')
+    .off('click.custom-control')
+    .on('click.custom-control', '.btn-play', function(event) {
+        event.preventDefault();
+
+        var $btn = $(this).hide();
+        var $video = $btn.siblings('video');
+
+        $video
+        .off('pause.custom-control')
+        .on('pause.custom-control', function() {
+            $btn.show();
+        });
+
+        $video.trigger('play');
+    });
+
 })(jQuery);
