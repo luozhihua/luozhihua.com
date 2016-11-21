@@ -130,9 +130,12 @@
         var $video = $btn.siblings('video');
 
         $video
-        .off('pause.custom-control')
+        .off('.custom-control')
         .on('pause.custom-control', function() {
             $btn.show();
+        })
+        .on('play.custom-control', function() {
+            $btn.hide();
         });
 
         $video.trigger('play');
