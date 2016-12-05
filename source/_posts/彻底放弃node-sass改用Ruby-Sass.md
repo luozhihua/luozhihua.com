@@ -3,7 +3,7 @@ title: 彻底放弃node-sass改用Ruby Sass
 layout: post
 categories: 技术
 comments: true
-description: ''
+description: 'Sass、Less、Stylus等CSS预处理器的出现大大的提升了CSS的开发速度和代码可读性，相对来说Sass功能更全面、使用的更广泛，之前好几个项目我都用了Sass，刚一开始我本机用着都一切安好，后来慢慢的发现不少问题。'
 date: 2016-10-13 13:28:39
 updated: 2016-10-13 13:28:39
 tags:
