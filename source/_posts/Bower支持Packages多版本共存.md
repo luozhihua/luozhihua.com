@@ -6,10 +6,10 @@ id: 1265
 categories:
   - 技术
 date: 2014-09-22 23:35:36
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/bower-api.png?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/bower-api.png?imageView2/1/w/345/h/163
 ---
 
-![](http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/bower-api.png)
+![](//res.luozhihua.com/static/images/thumbs/bower-api.png)
 
 Bower是一个Javascript包管理工具，能统一管理前端Javascript依赖，简单方便，于是，我在试用了几天后打算在公司的项目上采用Bower，公司的产品非常多，多达150个应用里面各种Javascript库和框架都有，急切需要一个包管理工具来集中管理第三方的库和框架，但在实施过程中碰到一个问题，我需要同时依赖不同版本的jQuery，但是Bower似乎不允许我这样做，这曾一度让我想放弃Bower。<!--more-->
 
@@ -54,4 +54,3 @@ Bower是一个Javascript包管理工具，能统一管理前端Javascript依赖�
     -p, --production # 不要安装开发依赖的package（一般用于生产环境）；
     -S, --save # 安装完成后将此package记录在bower.json文件的dependencies项中；
     -D, --save-dev # 安装完成后将此package记录在bower.json文件的devDependencies项中(一般用于开发环境)；
-    

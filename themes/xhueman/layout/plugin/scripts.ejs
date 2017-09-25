@@ -1,6 +1,6 @@
 <% if (typeof(isHead) !== 'undefined' && isHead) { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- css('vendor/lightgallery/css/lightgallery.min') %>
+        <%- cdn('vendor/lightgallery/css/lightgallery.min.css') %>
     <% } %>
     <% if (theme.plugins.google_analytics) { %>
         <%- partial('plugin/google-analytics') %>
@@ -10,14 +10,14 @@
     <% } %>
 <% } else { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- js('vendor/lightgallery/js/lightgallery.min') %>
-        <%- js('vendor/lightgallery/js/lg-thumbnail.min') %>
-        <%- js('vendor/lightgallery/js/lg-pager.min') %>
-        <%- js('vendor/lightgallery/js/lg-autoplay.min') %>
-        <%- js('vendor/lightgallery/js/lg-fullscreen.min') %>
-        <%- js('vendor/lightgallery/js/lg-zoom.min') %>
-        <%- js('vendor/lightgallery/js/lg-hash.min') %>
-        <%- js('vendor/lightgallery/js/lg-share.min') %>
-        <%- js('vendor/lightgallery/js/lg-video.min') %>
+        <%- cdn('vendor/lightgallery/js/lightgallery.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-thumbnail.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-pager.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-autoplay.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-fullscreen.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-zoom.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-hash.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-share.min.js') %>
+        <%- cdn('vendor/lightgallery/js/lg-video.min.js') %>
     <% } %>
 <% } %>

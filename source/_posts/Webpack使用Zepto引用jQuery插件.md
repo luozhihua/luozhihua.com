@@ -3,7 +3,7 @@ title: Webpack使用Zepto引用jQuery插件
 layout: post
 categories: 技术
 comments: true
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/webpack.png?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/webpack.png?imageView2/1/w/345/h/163
 description: '使用Webpack打包一个Web项目时，项目使用了Zepto，在不使用jQuery时如何保障jQuery插件中require("jquery")不会抛出Module Not Found的错误？'
 date: 2017-01-08 15:40:35
 updated: 2017-01-08 15:40:35

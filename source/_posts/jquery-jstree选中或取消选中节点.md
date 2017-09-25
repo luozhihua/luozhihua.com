@@ -3,7 +3,7 @@ title: jquery.jstree选中或取消选中节点
 layout: post
 categories: 技术
 comments: true
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/jstree-checkbox.jpg?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/jstree-checkbox.jpg?imageView2/1/w/345/h/163
 description: ''
 date: 2016-10-24 13:14:42
 updated: 2016-10-24 13:14:42
@@ -11,7 +11,7 @@ tags:
 banner:
 ---
 
-{% qnimg thumbs/jstree-checkbox.jpg title: alt: 'class:class1 class2' extend:?imageView2/2/w/600 %}
+{% cdnres static/images/thumbs/jstree-checkbox.jpg title: alt: 'class:class1 class2' extend:?imageView2/2/w/600 %}
 
 jQuery.jstree组件有个checkbox的plugin，支持在treeview的每个节点前显示一个checkbox，对于后台管理系统UI和交互这是个非常有价值的功能，但是官方除了一个简单的实例却没有详细的文档说明，让很多开发者饶了不少弯，下面是我使用时发现的一些常用方法。
 

@@ -44,12 +44,12 @@
         <link rel="icon" href="<%- url_for(theme.customize.favicon) %>" />
     <% } %>
 
-    <%- css('vendor/font-awesome/css/font-awesome.min') %>
-    <%- css('vendor/titillium-web/styles') %>
-    <%- css('vendor/source-code-pro/styles') %>
+    <%- cdn('vendor/font-awesome/css/font-awesome.min.css') %>
+    <%- cdn('vendor/titillium-web/styles.css') %>
+    <%- cdn('vendor/source-code-pro/styles.css') %>
 
-    <%- css('css/style') %>
+    <%- cdn('css/style.css') %>
 
-    <%- js('vendor/jquery/2.0.3/jquery.min') %>
+    <%- cdn('vendor/jquery/2.0.3/jquery.min.js') %>
     <%- partial('plugin/scripts', { isHead: true }) %>
 </head>

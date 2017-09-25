@@ -5,10 +5,10 @@ categories:
   - 技术
 date: 2014-10-27 21:31:24
 tags:
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/yeoman.png?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/yeoman.png?imageView2/1/w/345/h/163
 ---
 
-![](http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/yeoman.png)
+![](//res.luozhihua.com/static/images/thumbs/yeoman.png)
 
 使用Yeoman初始化的项目会默认使用Grunt作为构建工具，Grunt配置了connect任务，可以直接使用命令“grunt serve”在本机启动一个用于预览的Web服务器，默认监听了9000端口，另外，启动的预览服务器还会额外监听35729端口用来即时检测项目的文件是否被更改，一旦在任意编辑器修改了项目所属的文件时，服务器就会即时通过35729端口通知浏览器自动刷新打开的页面，此功能极大的提升了前端的开发效率，如果配置了多台显示器在写代码时更是得心应手。
 

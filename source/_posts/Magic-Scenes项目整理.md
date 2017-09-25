@@ -7,11 +7,11 @@ description: ''
 date: 2016-10-14 16:24:01
 updated: 2016-10-14 16:24:01
 tags:
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/magicscene/0.jpg?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/magicscene/0.jpg?imageView2/1/w/345/h/163
 banner:
 ---
 
-{% qnimg magicscene/0.jpg title:MagicScenes项目 alt:MagicScenes项目 'class:class1 class2' %}
+{% cdnres static/images/magicscene/0.jpg title:MagicScenes项目 alt:MagicScenes项目 'class:class1 class2' %}
 
 这是我在[魔窗](http://www.magicwindow.cn)的第一个项目，是一个在线制作H5场景应用的工具，为魔窗的活动运营服务的宣传和推广提供辅助支持，制作好的H5场景应用可以投放在APP内，也可以通过微信、QQ等社交媒体分享给更多的人，再通过功能按钮下载App或回流，不幸的是由于时间和人员紧缺，要优化的细节和用户提出的各种新需求需要花大量的时间成本来维护和迭代，而其他核心项目却面临没人开发的尴尬局面，这个项目投入使用一段时间后被停止了，继而改为使用第三方的H5制作工具[云来](http://www.liveapp.cn/)，而我把主要精力转移到魔窗的[H5活动](http://www.magicwindow.cn/operation.html)、[SDK](http://www.magicwindow.cn/download.html)、[Deeplink](http://www.magicwindow.cn/deeplink.html)等与业务核心相关的研发工作。
 
@@ -27,62 +27,47 @@ Material Design，中文名：质感设计，是由Google推出了全新的设�
 
 下面贴一些界面的截图：
 
-{% qnimg magicscene/1.jpg title:场景第一页 alt:场景第一页 'class:class1 class2' %}
+{% cdnres static/images/magicscene/1.jpg title:场景第一页 alt:场景第一页 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/2.jpg title:场景第二页 alt:场景第二页 'class:class1 class2' %}
+{% cdnres static/images/magicscene/2.jpg title:场景第二页 alt:场景第二页 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/3.jpg title:场景第三页 alt:场景第三页 'class:class1 class2' %}
+{% cdnres static/images/magicscene/3.jpg title:场景第三页 alt:场景第三页 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/4.jpg title:画布内组件的功能菜单 alt:画布内组件的功能菜单 'class:class1 class2' %}
+{% cdnres static/images/magicscene/4.jpg title:画布内组件的功能菜单 alt:画布内组件的功能菜单 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/5.jpg title:组件样式编辑面板 alt:组件样式编辑面板 'class:class1 class2' %}
+{% cdnres static/images/magicscene/5.jpg title:组件样式编辑面板 alt:组件样式编辑面板 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/6.jpg title:组件边框编辑面板 alt:组件边框编辑面板 'class:class1 class2' %}
+{% cdnres static/images/magicscene/6.jpg title:组件边框编辑面板 alt:组件边框编辑面板 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/7.jpg title:组件动画编辑面板 alt:组件动画编辑面板 'class:class1 class2' %}
+{% cdnres static/images/magicscene/7.jpg title:组件动画编辑面板 alt:组件动画编辑面板 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/8.jpg title:图片素材管理和选择器 alt:图片素材管理和选择器 'class:class1 class2' %}
+{% cdnres static/images/magicscene/8.jpg title:图片素材管理和选择器 alt:图片素材管理和选择器 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/9.jpg title:图片批量上传工具 alt:图片批量上传工具 'class:class1 class2' %}
+{% cdnres static/images/magicscene/9.jpg title:图片批量上传工具 alt:图片批量上传工具 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/10.jpg title:页面背景图片和背景颜色管理器 alt:页面背景图片和背景颜色管理器 'class:class1 class2' %}
+{% cdnres static/images/magicscene/10.jpg title:页面背景图片和背景颜色管理器 alt:页面背景图片和背景颜色管理器 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/11.jpg title:背景音乐管理器 alt:背景音乐管理器 'class:class1 class2' %}
+{% cdnres static/images/magicscene/11.jpg title:背景音乐管理器 alt:背景音乐管理器 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/12.jpg title:输入组件编辑器 alt:输入组件编辑器 'class:class1 class2' %}
+{% cdnres static/images/magicscene/12.jpg title:输入组件编辑器 alt:输入组件编辑器 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/13.jpg title:功能按钮编辑器 alt:功能按钮编辑器 'class:class1 class2' %}
+{% cdnres static/images/magicscene/13.jpg title:功能按钮编辑器 alt:功能按钮编辑器 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/14.jpg title:场景预览和发布 alt:场景预览和发布 'class:class1 class2' %}
+{% cdnres static/images/magicscene/14.jpg title:场景预览和发布 alt:场景预览和发布 'class:class1 class2' %}
 
-*&nbsp;*
 
-{% qnimg magicscene/15.jpg title:发布成功提示框 alt:发布成功提示框 'class:class1 class2' %}
+{% cdnres static/images/magicscene/15.jpg title:发布成功提示框 alt:发布成功提示框 'class:class1 class2' %}
 
-*&nbsp;*

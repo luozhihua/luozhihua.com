@@ -6,7 +6,7 @@ id: 1102
 categories:
   - 笔记
 date: 2013-05-13 14:38:42
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/UIDesigner.jpg?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/UIDesigner.jpg?imageView2/1/w/345/h/163
 ---
 
 UIDesigner是腾讯用户研究与体验设计部（CDC）设计研发的一款设计类软件，打造一款可以让设计师统一平台和团队协作的平台型设计工具，经过1.0和2.0版本的经验沉淀，我们决定对3.0版本进行全新的架构设计。

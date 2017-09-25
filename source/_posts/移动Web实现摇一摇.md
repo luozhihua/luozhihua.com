@@ -7,7 +7,7 @@ date: 2015-06-06 14:24:39
 tags:
   - javascript
   - 移动Web
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/摇一摇.png?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/摇一摇.png?imageView2/1/w/345/h/163
 ---
 
 ```javascript
