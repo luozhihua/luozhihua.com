@@ -8,7 +8,7 @@ date: 2016-10-13 13:28:39
 updated: 2016-10-13 13:28:39
 tags:
     - sass
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/no-node-sass.jpg?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/no-node-sass.jpg?imageView2/1/w/345/h/163
 banner:
 ---
 

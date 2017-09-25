@@ -44,8 +44,11 @@ search:
 # Comment
 comment:
     #disqus: luozhihua # enter disqus shortname here
-    duoshuo: luozhihua # enter duoshuo shortname here
-    youyan: # enter youyan uid here
+    #duoshuo: luozhihua # enter duoshuo shortname here
+    #youyan: 1571736 # enter youyan uid here
+    changyan:
+        appid: cyteu6NaD
+        appkey: prod_963bc81e11a3607fdeb53764a3a40a9b
 
 # Share
 share: bdshare # options: jiathis, bdshare, addtoany, default

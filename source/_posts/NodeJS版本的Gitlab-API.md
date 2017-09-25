@@ -7,10 +7,10 @@ id: 1796
 categories:
   - 技术
 date: 2014-11-08 15:01:34
-thumbnail: http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/gitlab-api-nodejs.png?imageView2/1/w/345/h/163
+thumbnail: //res.luozhihua.com/static/images/thumbs/gitlab-api-nodejs.png?imageView2/1/w/345/h/163
 ---
 
-![](http://oezzzs8eh.bkt.clouddn.com/static/images/thumbs/gitlab-api-nodejs.png)
+![](//res.luozhihua.com/static/images/thumbs/gitlab-api-nodejs.png)
 
 Gitlab 是一个非常优秀的开源Git仓库管理工具，能部署到自己的服务器上，不仅提供了仓库服务器，重要的是其提供了一个用户体验相当优秀的UI界面，可以方便直观的管理源代码和团队对所有成员提交的代码进行review，对初步接触Git的用户更是有非常大的帮助，能快速上手。
 
