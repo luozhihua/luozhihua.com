@@ -9,3 +9,4 @@ public/
 *.sublime-*
 .picasaoriginals
 *.ini
+.idea
