@@ -1,0 +1,71 @@
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//<%= theme.plugins.piwik_analytics.host %>/";
+    _paq.push(['setTrackerUrl', u + 'piwik.php']);
+    _paq.push(['setSiteId', '<%= theme.plugins.piwik_analytics.siteid %>']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript';
+    g.async = true;
+    g.defer = true;
+    g.src = u + 'piwik.js';
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<noscript><p><img src="//<%= theme.plugins.piwik_analytics.host %>/piwik.php?idsite=2&rec=1" style="border:0;" alt=""/></p></noscript>
+<!-- End Piwik Code -->
+
+<script>
+  (function () {
+
+    var piwikInited
+
+    var trackClick = function () {
+
+      if (!piwikInited) {
+        piwikInited = true
+
+        window.piwik_install_tracker = true
+        window.piwik_track = null
+        document.addEventListener('click', function (event) {
+          var tracker = Piwik.getAsyncTracker()
+          // var target = event.target
+          // var elemTag = target.tagName
+          // var elemId = target.id ? ('#' + target.id) : ''
+          // var elemClass = target.className ? ('.' + (target.className).replace(/\s/g, '.')) : ''
+          // var targetName = [elemTag, elemId, elemClass].join('')
+          var tracking
+          var pathMap = []
+
+          $.each(event.path, function (i, elem) {
+            pathMap.push(elem.tagName)
+
+            if (['A', 'AREA'].indexOf(elem.tagName) !== -1) {
+              tracking = true
+              tracker.trackLink(elem.href, 'click')
+
+              return false
+            }
+
+            if (['IMG'].indexOf(elem.tagName) !== -1) {
+              tracking = true
+              tracker.trackLink(elem.src, 'click')
+
+              return false
+            }
+          })
+
+          if (!tracking) {
+            tracker.trackEvent('Uncategorized', 'clicked', pathMap.join('<'))
+          }
+        }, true)
+      }
+    }
+
+    $.ready(trackClick);
+  })
+</script>

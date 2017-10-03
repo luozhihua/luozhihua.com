@@ -8,6 +8,9 @@
     <% if (theme.plugins.baidu_analytics) { %>
         <%- partial('plugin/baidu-analytics') %>
     <% } %>
+    <% if (theme.plugins.piwik_analytics) { %>
+        <%- partial('plugin/piwik-analytics') %>
+    <% } %>
 <% } else { %>
     <% if (theme.plugins.lightgallery) { %>
         <%- cdn('vendor/lightgallery/js/lightgallery.min.js') %>
@@ -21,3 +24,13 @@
         <%- cdn('vendor/lightgallery/js/lg-video.min.js') %>
     <% } %>
 <% } %>
+
+<script type="text/javascript" src="//cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+<script type="text/javascript">
+  $youziku.load(".article-title,.widget-title,.item-title", "0bdce855d0c145e799e703a537c7d0e9", "PingFangSC");
+  $youziku.load("h2,h3,h4,h5,h6", "6cba73fd988440d191463ed4d884769a", "JY3");
+
+  /*$youziku.load("#id1,.class1,h1", "8ac5bff2e6a9464191f27e5ec7d186e0", "Bigruixian");*/
+  /*．．．*/
+  $youziku.draw();
+</script>

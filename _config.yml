@@ -206,6 +206,7 @@ toc:
     style: header-anchor
 
 cdns:
+  #- 'localhost:4000'
   - 'res.luozhihua.com'
   - 's1.luozhihua.com'
   - 's2.luozhihua.com'
