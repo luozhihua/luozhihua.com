@@ -59,8 +59,8 @@ plugins:
     google_analytics: UA-15015199-4 # enter the tracking ID for your Google Analytics
     baidu_analytics: # enter Baidu Analytics hash key
     piwik_analytics:
-      host: piwik.luozhihua.com # enter Piwik Host
-      siteid: 2 # enter Piwik Site ID
+        host: piwik.luozhihua.com # enter Piwik Host
+        siteid: 2 # enter Piwik Site ID
 
 # Miscellaneous
 miscellaneous:
