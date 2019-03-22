@@ -15,6 +15,9 @@ install:
 - npm install -g hexo
 - npm install
 
+before_script:
+  - echo -e "Host luozhihua.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
 script:
 - hexo clean
 - hexo generate
