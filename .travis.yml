@@ -19,6 +19,7 @@ before_install:
 install:
 - npm install -g npm
 - npm install -g hexo
+- npm uninstall swig
 - npm install
 
 before_script:
