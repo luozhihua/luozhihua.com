@@ -3,6 +3,12 @@ os:
 language: node_js
 node_js: stable
 
+# 缓存依赖，节省持续集成时间
+cache:
+  npm: true
+  directories:
+    - node_modules
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_2dad640d34c6_key -iv $encrypted_2dad640d34c6_iv
   -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
