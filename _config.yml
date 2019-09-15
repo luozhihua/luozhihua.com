@@ -18,12 +18,12 @@ permalink: :title.html
 permalink_defaults:
 
 # Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: cat
-code_dir: downloads/code
+source_dir: /source
+public_dir: /public
+tag_dir: /tags
+archive_dir: /archives
+category_dir: /cat
+code_dir: /downloads/code
 i18n_dir: :lang
 skip_render:
 
@@ -134,9 +134,11 @@ theme: xhueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: luozhihua.com
   user: root
-  root: /web/luozhihua.com
+  # host: luozhihua.com
+  # root: /web/luozhihua.com
+  host: 47.52.134.25
+  root: /www/luozhihua.com
   port: 22
   delete: false
   verbose: true
