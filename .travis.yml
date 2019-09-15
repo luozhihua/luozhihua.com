@@ -11,7 +11,8 @@ cache:
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_2dad640d34c6_key -iv $encrypted_2dad640d34c6_iv
-  -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
+  -in .travis/travis.key.enc 
+  -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - git config --global user.name "luozhihua"
 - git config --global user.email "mail@luozhihua.com"
@@ -34,6 +35,4 @@ script:
 
 addons:
   ssh_know_hosts:
-  - github.com
   - luozhihua.com
-  - 47.52.134.25:22

@@ -135,9 +135,8 @@ theme: xhueman
 deploy:
   type: rsync
   user: root
-  # host: luozhihua.com
+  host: luozhihua.com
   # root: /web/luozhihua.com
-  host: 47.52.134.25
   root: /www/luozhihua.com
   port: 22
   delete: false
