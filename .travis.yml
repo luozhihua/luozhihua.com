@@ -35,4 +35,4 @@ addons:
   ssh_know_hosts:
   - github.com
   - luozhihua.com
-  - 47.52.134.25
+  - 47.52.134.25:22
