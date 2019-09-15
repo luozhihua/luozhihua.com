@@ -15,6 +15,7 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 - git config --global user.name "luozhihua"
 - git config --global user.email "mail@luozhihua.com"
+- echo "$host_ip ecdsa-sha2-nistp256 $host_public_key" >> $HOME/.ssh/known_hosts
 
 install:
 - npm install -g npm
