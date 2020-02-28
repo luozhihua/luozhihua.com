@@ -11,7 +11,7 @@ cache:
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_2dad640d34c6_key -iv $encrypted_2dad640d34c6_iv
-  -in .travis/travis.key.enc 
+  -in .travis/travis.key.enc
   -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - git config --global user.name "luozhihua"
@@ -31,7 +31,7 @@ script:
 - hexo clean
 - hexo generate
 - hexo deploy
-# - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ root@luozhihua.com:/web/luozhihua.com
+- rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ root@luozhihua.com:/web/luozhihua.com
 
 addons:
   ssh_know_hosts:

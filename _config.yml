@@ -128,7 +128,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: xhueman
+# theme: xhueman
+theme: ocean
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -138,7 +139,7 @@ deploy:
   host: luozhihua.com
   # root: /web/luozhihua.com
   root: /www/luozhihua.com
-  port: 22
+  port: 22922
   delete: false
   verbose: true
   ignore_errors: false
